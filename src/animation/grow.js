@@ -1,7 +1,3 @@
-import { smooth, scrollPhases } from './transition'
-
-
-
 const gr = {
   visible: {
     scaleX: 1,
