@@ -15,7 +15,7 @@ interface PageProps {
   story: ISbStoryData
 }
 
-const Page: React.FunctionComponent<PageProps> = ({
+export const Page: React.FunctionComponent<PageProps> = ({
   blok,
   story
 }) => {
@@ -31,5 +31,3 @@ const Page: React.FunctionComponent<PageProps> = ({
     </main>
   )
 }
-
-export default Page
