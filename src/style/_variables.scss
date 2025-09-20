@@ -1,0 +1,121 @@
+// Colors
+:root {
+  // Hex Neutral
+  --full-black: #000000;
+  --black: #24222a;
+  --grey-900: #363636;
+  --grey-500: #78757a;
+  --grey-400: #99979b;
+  --grey-300: #b3b1b4;
+  --grey-200: #cccbcd;
+  --grey-100: #e6e5e6;
+  --off-white: #fafafa;
+  --white: #ffffff;
+
+  // Hex Colors
+  --papaya: #e6aca5;
+  --snapdragon: #f4f7f8;
+  --cloud-blue: #e4e8eb;
+  --vapor-blue: #cddce7;
+  --sky-blue: #7da8c7;
+  --french-blue: #426e8d;
+  --ocean-blue: #2b5879;
+  --deep-blue: #173245;
+  --vivid-blue: #2177bb;
+  --vivid-blue: #0d85e3;
+  --tangerine: #f27347;
+  --baby-cherry: #b71f2f;
+  --lotus-blossom: #facebf;
+
+  // Primary
+  --color-primary-100: 205 220 231;
+  --reference-100: var(--vapor-blue);
+  --color-primary-150: 228 232 235;
+  --reference-150: var(--cloud-blue);
+  --color-primary-300: 125 168 199;
+  --reference-300: var(--sky-blue);
+  --color-primary-500: 66 110 141;
+  --reference-500: var(--french-blue);
+  --color-primary-600: 43 88 121;
+  --reference-600: var(--ocean-blue);
+  --color-primary-900: 23 50 69;
+  --reference-900: var(--deep-blue);
+
+  // Accent
+  --reference-300: var(--papaya);
+  --color-accent-300: 230 172 165;
+
+  // Status
+  --error: 183 31 47;
+  --refernce-error: var(--baby-cherry);
+  --warn: 242 115 71;
+  --refernce-warn: var(--tangerine);
+
+  // Neutral
+  --neutral-900: 36 34 42;
+  --reference-neutral-900: var(--black);
+  --neutral-800: 54 54 54;
+  --reference-neutral-800: var(--grey-90);
+  --neutral-700: 121 117 122;
+  --reference-neutral-700: var(--grey-500);
+  --neutral-600: 153 151 155;
+  --reference-neutral-600: var(--grey-400);
+  --neutral-500: 179 177 180;
+  --reference-neutral-500: var(--grey-300);
+  --neutral-400: 204 203 205;
+  --reference-neutral-400: var(--grey-200);
+  --neutral-300: 230 229 230;
+  --reference-neutral-300: var(--grey-100);
+  --neutral-200: 250 250 250;
+  --reference-neutral-200: var(--off-white);
+  --neutral-100: 255 255 255;
+  --reference-neutral-100: var(--white);
+}
+
+// Layout
+:root {
+  --reading-content-width: min(90ch, 100%);
+}
+
+// Text
+:root {
+  // sizes
+  --text-xs: 8px;
+  --text-sm: 12px;
+  --text-md: 16px;
+  --text-ml: 20px;
+  --text-lg: 24px;
+  --text-lg-plus: 28px;
+  --text-xl: 32px;
+  --text-1xl: 36px;
+  --text-2xl: 40px;
+  --text-3xl: 48px;
+  --text-4xl: 56px;
+  --text-6xl: 64px;
+  --text-7xl: 72px;
+  --text-8xl: 80px;
+  --text-9xl: 88px;
+  --text-10xl: 96px;
+  --text-11xl: 104px;
+}
+
+// Misc
+:root {
+  // bezier curves
+  --smooth: cubic-bezier(0.115, 0.905, 0.32, 1);
+  --punchitchewy: cubic-bezier(1, 0, 0.115, 0.995);
+  --smooth-framer: [0.115, 0.905, 0.32, 1];
+
+  // transitions
+  --transition-1: all 1s var(--punchitchewy);
+  --transition-2: all 0.6s var(--punchitchewy);
+  --transition-3: all 0.3s var(--punchitchewy);
+  --transition-4: all 0.1s var(--punchitchewy);
+  --transition-1-smooth: all 1s var(--smooth);
+  --transition-2-smooth: all 0.6s var(--smooth);
+  --transition-3-smooth: all 0.3s var(--smooth);
+  --transition-4-smooth: all 0.1s var(--smooth);
+
+  // transition tokens
+  --transition-primary: var(--transition-3-smooth);
+}
