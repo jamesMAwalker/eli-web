@@ -6,13 +6,18 @@
     "dev": "next dev --turbopack --experimental-https",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "proxy": "mkcert -install && mkcert localhost && local-ssl-proxy --source 3010 --target 3000 --cert localhost.pem --key localhost-key.pem"
   },
   "dependencies": {
-    "@storyblok/react": "^4.3.2",
-    "next": "15.1.1",
+    "@storyblok/react": "^4.6.0",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.4.1",
+    "next": "^15.3.0",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "sass": "^1.84.0",
+    "tailwind-merge": "^3.0.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
